@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<style>
+    #container{
+        width: 25%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        padding: 10px 10px 10px 10px;
+        height: 500px;
+        margin-top: 50px;
+        padding-top: 30px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #login{
+        display: flex;
+    }
+   #log{
+    margin-left: 140px;
+   }
+   #otp{
+    display: flex;
+    /* border: 1px solid pink; */
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 50px;
+   }
+   #otp>input{
+    height: 20px;
+   
+    
+   }
+   #otp > h4{
+    margin-top: 1px;
+    color:  red;
+   }
+   #btn{
+    width: 80%;
+   
+
+   }
+  #btn > button {
+            color: white;
+            background-color: gray;
+            width: 80%;
+            padding: 20px;
+            border: 0ch;
+            font-size: larger;
+            margin: 10px;
+            margin-left: 65px;
+            margin-top: 65px;
+
+       }
+       .button{
+        color : green;
+       
+        
+
+       }
+       #new{
+        width: 80%;
+        background-color: rgb(226, 222, 222);
+        color: black;
+        padding: 20px;
+        margin: auto;
+
+       }
+       #new1{
+        width: 60%;
+        margin: auto    ;
+       }
+
+    
+</style>
+<body>
+    <div id="container">
+        <div id="login">
+            <div id="cross"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>back/close</title><path fill="#3F414D" d="M1.319 0L0 1.319 6.681 8 0 14.681 1.319 16 8 9.319 14.681 16 16 14.681 9.319 8 16 1.319 14.681 0 8 6.681z"></path></svg></div>
+
+           <div id="log">LOGIN</div>
+
+        </div>
+        <div id="new"></div>
+         <!-- <input id="inp" type="number"> -->
+         <div id="new1">
+         <p>Please enter the OTP sent on your phone
+            (Be sure to check your spam folder)</p>
+        </div>
+        
+            <div id="otp">
+                <input type="number" placeholder="OTP" onclick="myfun()">
+                <h4>RE-SEND OTP</h4>
+            </div>
+            <div id="btn"> <button id="button" onclick="sucess()">Verify</button></div>
+            <br>
+
+
+  
+    </div>
+</body>
+</html>
+
+<script>
+
+    // alert("OTP Sent Successfully")
+   var a=JSON.parse(localStorage.getItem("Mobile"))
+    document.querySelector("#new").innerText=a
+
+  
+    
+  function myfun(){
+    var btn = document.getElementById("button")
+    btn.setAttribute("class", button)
+    btn.style.backgroundColor="green"
+    
+  }
+
+  function sucess(){
+    alert("Login Sucessfull")
+    window.location.href="index.html"
+  }
+
+//   number.style.color= "grey"
+
+//    var inp=document.querySelector("#inp").value
+//    if(inp==""){
+//     alert("Please fill otp")
+//    }else if(inp.length<5){
+//     alert("Please Enter the valid otp")
+//    }
+var cross = document.getElementById("cross");
+    cross.addEventListener("click",function(){
+        window.location.href="SignIn2.html";
+
+    });
+</script>

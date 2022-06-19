@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Page</title>
+</head>
+<style>
+    #container{
+        width: 25%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        padding: 10px 10px 10px 10px;
+        height: 600px;
+    }
+    #cross{
+        text-align: left;
+        cursor: pointer;
+    }
+    #proceed{
+        background: #fc2779;
+        height: 50px;
+        margin-top: 200px;   
+    }
+    p{
+        text-align: end;
+        font-size: 75%;
+    }
+    input{
+        width: 80%;
+        height: 30px;     
+    }
+    #proceed>h3{
+        margin-top: 40px;
+        color: white;       
+    }
+    h3{
+        padding: 10px;
+    }
+
+</style>
+<body>
+    <div id="container">
+        <div id="login">
+        <div id="cross"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>back/close</title><path fill="#3F414D" d="M1.319 0L0 1.319 6.681 8 0 14.681 1.319 16 8 9.319 14.681 16 16 14.681 9.319 8 16 1.319 14.681 0 8 6.681z"></path></svg></div>
+       
+            <h4>LOGIN / REGISTER</h4>
+        </div>
+        <input id="enter" placeholder="Enter Email ID or Phone Number">
+        <p>REQUIRED</p>
+        <div id="proceed">
+            <h3 onclick="mynum()">PROCEED</h3>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+<script>
+    let cross = document.getElementById("cross");
+    cross.addEventListener('click',function(){
+        window.location.href="signIn.html"
+    })
+
+    function mynum(){
+        var x=  document.querySelector("#enter").value
+        localStorage.setItem("Mobile",JSON.stringify(+(x)))
+        window.location.href="Login.html"
+    }
+
+//   var x=  document.querySelector("#enter").value
+//   localStorage.setItem("Mobile",JSON.stringify(x))
+</script>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Page</title>
+</head>
+<style>
+    #container{
+        width: 25%;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        padding: 10px 10px 10px 10px;
+        height: 600px;
+    }
+    #enter{
+        width: 80%;
+        border-radius: 4px;
+        background: #fc2779;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: .28px;   
+        margin-left: 10%;
+        height: 40px;
+    }
+    #enter>h4{
+        color: white;
+        margin-top: 40px;
+        
+    }
+    #signin{
+        text-align: left;
+    }
+    #cross{
+        text-align: left;
+        cursor: pointer;
+    }
+    #img{
+        display: flex;  
+        width: 80%;
+        justify-content: center;
+    }
+    #img>img{
+        height: 30px;
+        margin-top: 15px;
+
+    }
+    #snip>img{
+        width: 60%;
+    }
+ 
+</style>
+<body>
+    <div id="container">
+        <div id="cross"><svg id="main" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><title>back/close</title><path fill="#3F414D" d="M1.319 0L0 1.319 6.681 8 0 14.681 1.319 16 8 9.319 14.681 16 16 14.681 9.319 8 16 1.319 14.681 0 8 6.681z"></path></svg></div>
+        <div id="signin"><h1>SIGN IN</h1></div>
+        <div id="punch"><p>To quickly find your favourites items, saved addresses and payments.</p></div>
+        <hr>
+        <div id="register"><p>Register and earn 2000 reward points</p></div>
+        <div id="snip">
+            <img src="image_snipping.PNG">
+        </div>
+        <div id="enter">
+            <h4>Enter Phone Number Or Email</h4>
+        </div>
+        <div id="img">
+            <img src="data:image/png;base64,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">
+
+            <div id="google"><h3>Google</h3></div>
+        </div>
+        <div>
+            <p>By continuing, you agree that you have read and accept our<u><a href="#">T&Cs</a></u> and <u><a href="#">Privacy Policy</a></u>.</p>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
+<script>
+    
+    var cross = document.getElementById("main");
+    cross.addEventListener("click",function(){
+        window.location.href="index.html";
+
+    });
+
+    var enter = document.getElementById("enter");
+    enter.addEventListener("click",function(){
+        window.location.href="SignIn2.html";
+
+    })
+
+    
+</script>
