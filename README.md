@@ -14,9 +14,9 @@ This project is deployed on netlify here - [Nykaa Clone](https://sunny-torrone-a
 ## Team Members
 
 - [@Sarwjeet](https://github.com/sarwjeet424)
-- [@Shreedhar-Hakke](https://github.com/Shridhar1998)
-- [@Divyanka-Rai](https://github.com/DivyankaRai)
-- [@Arjun-Yadav](https://github.com/yadavarjun182)
+- [@Ejaz-Ahmad](https://github.com/ejazahmad1995)
+- [@Ujjwal-joshi](https://github.com/Ujjwal1110)
+- [@Mithyarama-chandran](https://github.com/mithyaramachandran75)
 
 # Description -
 
