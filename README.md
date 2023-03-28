@@ -27,7 +27,7 @@ The e-commerce website has the following pages and the order of flow is also the
 1. Login Page - This page will get the email from user.
 2. Signup Page - This page will get the password and gender from the user.
 3. Login with Password - This page will check the entered Email and Password and redirect you to the Home Page.
-  ![Landing Page](https://i.postimg.cc/ZqFXN4Fb/Screenshot-915.png)
+  ![Landing Page](https://i.postimg.cc/jqg7gdfw/Screenshot-558.png)
 
 ## Home page -
 
