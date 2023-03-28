@@ -27,22 +27,22 @@ The e-commerce website has the following pages and the order of flow is also the
 1. Login Page - This page will get the email from user.
 2. Signup Page - This page will get the password and gender from the user.
 3. Login with Password - This page will check the entered Email and Password and redirect you to the Home Page.
-  ![Landing Page](https://i.postimg.cc/jqg7gdfw/Screenshot-558.png)
+  ![Landing Page](https://i.postimg.cc/y8rrXShf/Screenshot-559.png)
 
 ## Home page -
 
-The landing page consists of the links to all the other pages like - menswear, womenwear, shopping bag(cart) and login & signup pages.
+The landing page consists of the links to all the other pages like - product, product specification, shopping bag(cart) and login & signup pages.
 
 - *Landing Page*
 
-  ![Landing Page](https://i.postimg.cc/SKd06PP4/Screenshot-556.png)
+  ![Landing Page](https://i.postimg.cc/pdSbT61L/Screenshot-557.png)
 
 ## Products Page - 
 
 1. You can select various products from this pages.
 2. You can even sort the products according to your comfort.
 
-  ![Landing Page](https://i.postimg.cc/5ywDtkLD/Screenshot-561.png)
+  ![Landing Page](https://i.postimg.cc/Jz5XCpNB/Screenshot-562.png)
 
 ## Product Specification Page - 
 
@@ -50,11 +50,11 @@ The landing page consists of the links to all the other pages like - menswear, w
 2. You can add the product to your cart. The price / cutoff price / discount etc all are displayed here.
 
 
-  ![Landing Page](https://i.postimg.cc/8zTtRCgF/Screenshot-560.png)
+  ![Landing Page](https://i.postimg.cc/VvVbH17c/Screenshot-561.png)
 
 ## Cart Page - 
 
 1. User address details and delivery preferences are provided by users.
 
 
-  ![Landing Page](https://i.postimg.cc/zv034p3Y/Screenshot-557.png)
+  ![Landing Page](https://i.postimg.cc/FsTPNJ69/Screenshot-558.png)
