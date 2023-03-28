@@ -42,7 +42,7 @@ The landing page consists of the links to all the other pages like - product, pr
 1. You can select various products from this pages.
 2. You can even sort the products according to your comfort.
 
-  ![Landing Page](https://i.postimg.cc/Jz5XCpNB/Screenshot-562.png)
+  ![Landing Page](https://i.postimg.cc/vTvDpnG9/Screenshot-562.png)
 
 ## Product Specification Page - 
 
