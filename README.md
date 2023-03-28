@@ -35,26 +35,26 @@ The landing page consists of the links to all the other pages like - menswear, w
 
 - *Landing Page*
 
-  ![Landing Page](https://i.postimg.cc/Y2nbsz3q/Screenshot-64.png)
+  ![Landing Page](https://i.postimg.cc/SKd06PP4/Screenshot-556.png)
 
-## Men's Clothing, Women's Clothing - 
+## Products Page - 
 
 1. You can select various products from this pages.
 2. You can even sort the products according to your comfort.
 
-  ![Landing Page](https://i.postimg.cc/q74sRNL5/Screenshot-59.png)
+  ![Landing Page](https://i.postimg.cc/5ywDtkLD/Screenshot-561.png)
 
-## Product Page - 
+## Product Specification Page - 
 
 1. This page gets the data about that specific product from the cateogory pages and displays it in detail here. 
 2. You can add the product to your cart. The price / cutoff price / discount etc all are displayed here.
 
 
-  ![Landing Page](https://i.postimg.cc/KY0M8J41/Screenshot-68.png)
+  ![Landing Page](https://i.postimg.cc/8zTtRCgF/Screenshot-560.png)
 
 ## Cart Page - 
 
 1. User address details and delivery preferences are provided by users.
 
 
-  ![Landing Page](https://i.postimg.cc/L4wbxM28/Screenshot-69.png)
+  ![Landing Page](https://i.postimg.cc/zv034p3Y/Screenshot-557.png)
